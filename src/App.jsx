@@ -1,5 +1,11 @@
+import Router from './router/Router';
+
 const App = () => {
-  return <div className='bg-red-100'>Hello, React!</div>;
+  return (
+    <div>
+      <Router />
+    </div>
+  );
 };
 
 export default App;
